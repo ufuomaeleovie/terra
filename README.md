@@ -15,3 +15,4 @@ Terraform apply, plan = Terraform will check the .tfstate file>>terraform files>
 Variables = KEY/Value
 region = "us-east-1"
 
+today we moved our state file to s3 and used ddbtable to ensure state lock during terraform apply execution.
