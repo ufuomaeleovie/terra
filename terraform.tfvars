@@ -1,5 +1,0 @@
-region = "us-east-1"
-vpc_cidr_block = "192.168.0.0/16"
-pub_subnet_cidr_block = "192.168.1.0/24"
-priv_sub_cidr_block = "192.168.2.0/24"
-route_cidr_block = "0.0.0.0/0"
