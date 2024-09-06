@@ -1,5 +1,5 @@
 terraform.tfstate
-terrafform.tfvars
+terraform.tfvars
 .terraform
 .terraform.lock.hcl
 .gitignore
