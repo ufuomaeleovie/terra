@@ -4,7 +4,7 @@ resource "aws_subnet" "pub_sub" {
   cidr_block = var.pub_subnet_cidr_block
 
   tags = {
-    Name = "pubsub"
+    Name = var.tag_3
   }
 }
 
@@ -14,6 +14,6 @@ resource "aws_subnet" "priv_sub" {
   cidr_block = var.priv_sub_cidr_block
 
   tags = {
-    Name = "privsub"
+    Name = var.tag_4
   }
 }
