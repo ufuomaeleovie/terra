@@ -17,3 +17,10 @@ variable "priv_sub_cidr_block" {
 variable "route_cidr_block" {
   description = "route table destination cidr_block address"
 }
+
+variable "tag_1" {}
+variable "tag_2" {}
+variable "tag_3" {}
+variable "tag_4" {}
+variable "tag_5" {}
+variable "tag_6" {}

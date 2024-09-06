@@ -8,7 +8,7 @@ resource "aws_route_table" "pub_rt1" {
   }
 
   tags = {
-    Name = "pub-rt1"
+    Name = var.tag_1
   }
 }
 
@@ -17,6 +17,6 @@ resource "aws_route_table" "priv_rt1" {
   vpc_id = aws_vpc.vpc1.id
 
   tags = {
-    Name = "priv-rt1"
+    Name = var.tag_2
   }
 }
